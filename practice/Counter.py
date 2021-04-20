@@ -36,3 +36,8 @@ c = Counter(my_list)
 print(c)
 c.update(new_list)
 print(c)
+
+# cards[x] vs cards.get(x)
+cards = Counter([1, 2, 2, 3, 3, 3])
+for i in range(5):
+    print(cards[i], cards.get(i))
