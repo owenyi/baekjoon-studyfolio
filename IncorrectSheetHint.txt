@@ -17,3 +17,6 @@
 10250 : h는 0부터 H - 1이 아니라 1부터 H, 그에 따른 w
 10814 : 121 > 20 but '121' < '20'
 10989 : 메모리는 python3, 출력 for문 N아니고 10000
+11050 : 내장 factorial
+11866 : 'str' object does not support item assignment
+15829 : 100점, overflow
