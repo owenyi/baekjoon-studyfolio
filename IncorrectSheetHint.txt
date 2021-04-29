@@ -21,3 +21,4 @@
 11866 : 'str' object does not support item assignment
 15829 : 100점, overflow
 18111 : 시간에 연연하지 말기, 답이 여러 개라면
+1003 : 표를 그려보자
