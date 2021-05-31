@@ -1,17 +1,19 @@
 from collections import deque
 
-def isBalanced(line):
+def isBalanced(s):
     stack = deque()
-    for x in line:
-        if x == '(' or x == '[': stack.append(x)
-        elif x == ')':
-            if not(stack) or '(' != stack.pop(): return 'no'
-        elif x == ']':
-            if not(stack) or '[' != stack.pop(): return 'no'
-    if stack: return 'no'
-    else: return 'yes'
+    for x in s:
+        if x == "(": stack.append(1)
+        elif x == "[": stack.append(2)
+        elif x == ")":
+            if not stack or stack.pop() != 1: return False
+        elif x == "]":
+            if not stack or stack.pop() != 2: return False
+    if stack: return False
+    return True
 
 while True:
-    line = input()
-    if line == '.': break
-    print(isBalanced(line))
+    s = input()
+    if s == '.': break
+    if isBalanced(s): print("yes")
+    else: print("no")
