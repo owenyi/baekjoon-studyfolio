@@ -32,3 +32,6 @@
 5430 : 효율성을 위해 반전은 한 번만
 15649-1 : 얕은복사
 2606-1, e : visited 갱신 위치, 1260-e 참고
+1012-1 : recursion limit인줄 알았는데 and not visited[y][x - 1] 이게 중요
+1012-2 : break가 아닌 continue
+7562-1 : nx, ny
