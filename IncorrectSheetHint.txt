@@ -35,3 +35,5 @@
 1012-1 : recursion limit인줄 알았는데 and not visited[y][x - 1] 이게 중요
 1012-2 : break가 아닌 continue
 7562-1 : nx, ny
+17142 : 행렬은 i, j 대신 x, y 사용
+17142-e : 활성 바이러스가 비활성 바이러스가 있는 칸으로 가면 비활성 바이러스가 활성으로 변한다.
