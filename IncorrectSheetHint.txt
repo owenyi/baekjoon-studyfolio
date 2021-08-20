@@ -46,3 +46,4 @@
 20927: cnt를 재귀함수 위아래가 아닌 매개변수에, v == 1인 경우 고려
 1916 : 시간을 빠르게 하기 위한 한 줄
 2665 : sys.stdin.readline으로 하니까 IndexError
+15651 : backtracking에서 depth는 쓰는 게 좋다
