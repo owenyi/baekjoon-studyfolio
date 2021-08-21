@@ -47,3 +47,5 @@
 1916 : 시간을 빠르게 하기 위한 한 줄
 2665 : sys.stdin.readline으로 하니까 IndexError
 15651 : backtracking에서 depth는 쓰는 게 좋다
+18258 : 출력을 여러 번 하면 시간을 많이 쓴다, list에 append시 str보다 int가 훨씬 더 빨리된다.
+2110 : 정렬 먼저! if문 만날 때마다 chk 바꾸기
