@@ -1,0 +1,1 @@
+[print(f"Case #{i + 1}: {a} + {b} = {a + b}") for i, (a, b) in [(i, map(int, input().split())) for i in range(int(input()))]]
