@@ -58,3 +58,5 @@
 2581 : 범위 n**.5까지
 11653 : 체 쓸 필요 없음
 1002 : leedakyeong.tistory.com/entry/백준-1002번-터렛-in-python-파이썬-코드-및-설명
+2021_Backend 2 : 행렬이 잘못됨
+2021_Backend 3 : 시간 단축을 위한 key
