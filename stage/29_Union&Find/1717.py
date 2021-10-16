@@ -9,15 +9,13 @@ def union(v1, v2):
     parent[p1] = p2
 
 def find(v):
-    # if parent[v] == -1: return v # -1인 경우에 같은 집합임을 확인할 수 없음
-    if parent[v] == v: return v
+    if parent[v] == -1: return v
     parent[v] = find(parent[v])
     return parent[v]
 
 N, M = map(int, input().split())
 
-# parent = [-1] * (N + 1) # -1인 경우에 같은 집합임을 확인할 수 없음
-parent = [i for i in range(N + 1)]
+parent = [-1] * (N + 1)
 
 for _ in range(M):
     command, a, b = map(int, input().split())
